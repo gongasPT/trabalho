@@ -1,1 +1,25 @@
-
+def funcao_ligas():
+    print("A que liga pertence a jornada que pretende ver?")
+    print("LaLiga Santader")
+    print("Premier League")
+    print("Liga NOS")
+    escliga=input("Introduza a escolha")
+    while escliga!="Liga NOS" and escliga!="Premier League" and escliga!="LaLiga Santander":
+        escliga = input("Introduza a escolha")
+    return escliga
+def funcao_jornada():
+    print("Qual a jornada?")
+    print("1")
+    print("*" * 20)
+    print("2")
+    print("*"*20)
+    print("3")
+    print("*" * 20)
+    print("4")
+    print("*" * 20)
+    print("5")
+    print("*" * 20)
+    num=int(input("Insira o número da jornada"))
+    while num!=1 and num!=2 and num!=3 and num!=4 and num!=5:
+        num = int(input("Insira o número da jornada"))
+    return num
